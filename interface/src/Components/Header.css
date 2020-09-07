@@ -1,0 +1,58 @@
+.Header{
+    grid-template-rows: 450px 150px;
+    display: grid;
+}
+.back-image{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    object-fit: cover;
+}
+.Header-top{
+    align-items: center;
+    grid-row: 1/2;
+    position: absolute;
+    z-index: 100;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 30px;
+    font-family: SFD-Bold;
+    font-weight: bold;
+    font-size: 20px;
+}
+.title{
+}
+.title-1{
+    padding:5px;
+    height: 23px;
+    margin-left: 50px;
+    font-family: SFD-Bold;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.button-1{
+    margin-left: 60px;
+    font-family: SFD-Bold;
+    font-weight: bold;
+    padding: 10px 10px;
+    background-color: #c72d12;
+    border-radius: 10px;
+    color: #f1f1f1;
+}
+.Header-bottom{
+    width: 100%;
+    line-height: 150px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    grid-row: 2/3;
+}
+.title-2{
+        margin-left: 200px;
+        font-size: 40px
+}
+.title-3{
+    padding-left: 10px;
+    color:#ddd3d3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px
+}

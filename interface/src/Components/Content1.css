@@ -1,0 +1,47 @@
+.Content1{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.Content1-1{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    background-color: rgb(238, 235, 230);
+    grid-column: 1/2;
+    height: 100%;
+}
+.Content1-2{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+    grid-column: 2/3;
+}
+.img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: -100px;
+}
+.Content1-1-ct{
+    grid-column: 2/3
+}
+.title-content-1{
+    color:#d39494;
+    font-family: fantasy;
+    font-size: 50px;
+    margin: 0;
+}
+.content-item{
+    color: #c04444;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content-item1{
+    font-family: cursive;
+}
+.button-2{
+    background-color: rgb(39, 216, 134);
+    border-radius: 3px;
+    padding: 5px;
+    border: none;
+}
