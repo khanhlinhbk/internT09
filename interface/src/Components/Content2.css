@@ -21,7 +21,6 @@
 }
 .Content-child{
     padding-left: 10px;
-    justify-items: center;
     margin-left: 10px;
     border-width: 2px;
     border-color: #f1f1f1;
@@ -34,14 +33,16 @@
     font-family: cursive;
 }
 .button-1-ct2{
-    margin-left: 50px;
+    width: 70px;
+    height: 30px;
     border-radius: 3px;
     border: none;
     padding: 5px;
     background-color: rgb(216, 108, 108);
     margin-bottom: 10px;
+    color: whitesmoke;
     position: absolute;
     z-index: 100;
-    color: whitesmoke;
-    top: 200px;
+    left: calc( 50% - 35px );
+    top: calc(100% - 15px); /*calc phải cách nhau */
 }

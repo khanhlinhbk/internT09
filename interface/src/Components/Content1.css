@@ -24,7 +24,7 @@
     object-position: -100px;
 }
 .Content1-1-ct{
-    grid-column: 2/3
+    grid-column: 2/3;
 }
 .title-content-1{
     color:#d39494;
@@ -38,6 +38,10 @@
 }
 .content-item1{
     font-family: cursive;
+}
+.a{
+
+    text-align: center;
 }
 .button-2{
     background-color: rgb(39, 216, 134);

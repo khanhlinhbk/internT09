@@ -12,17 +12,23 @@ export default function Content2(){
                 <div className="Content-child">
                     <p className="title-3-ct"> TARGET 1</p>
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+                    <div className="b">
                     <button className="button-1-ct2">Click Me</button>
+                    </div>
                 </div>
                 <div className="Content-child">
                     <p className="title-3-ct"> TARGET 2</p>
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+                    <div className="b">
                     <button className="button-1-ct2">Click Me</button>
+                    </div>
                 </div>
                 <div className="Content-child">
                     <p className="title-3-ct"> TARGET 3</p>
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+                    
                     <button className="button-1-ct2">Click Me</button>
+                    
                 </div>
             </div>
         </div>
